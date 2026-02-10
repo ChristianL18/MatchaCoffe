@@ -4,9 +4,8 @@
     box-sizing: border-box;
 }
 nav{
-    height: 80px;
+    height: 90px;
     width: 100%;
-    background-color: brown;
 }
 .searchbar{
     height: 60px;
@@ -26,4 +25,25 @@ nav{
 .main{
     display: flex;
 }
-
+.links{
+    display: flex;
+    gap: 100px;
+}
+.links a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 30px;
+    gap: 100px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
